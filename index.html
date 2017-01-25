@@ -1,0 +1,40 @@
+<html>
+
+<head>
+
+    <title>Itunes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+</head>
+
+<body>
+   
+
+
+        <div class="flex-container">
+            <div class="flex-box">
+
+                <form class="form-inline " onsubmit="itunesCtrl.getMusic(event)">
+<!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
+<div class="form-group">
+    <input type="text" class="form-control" name="artist" placeholder="Artist Name" />
+    <button type="submit" class="btn btn-default" id="get-music-button">Get Music</button>
+</div>
+</form>
+</div>
+</div>
+
+
+<div class="container" id="song-list">
+
+</div>
+
+
+
+<script src="itunes-service.js"></script>
+<script src="app.js"></script>
+</body>
+
+</html>
