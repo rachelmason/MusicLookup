@@ -14,7 +14,9 @@ body{
  
 }
 h1{
-    color: antiquewhite;
+    color: rgb(102, 98, 92);
+    background-color: rgba(252, 252, 252, .7);
+    border-radius: 10px;
 }
 
 .well-bk{
